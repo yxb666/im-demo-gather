@@ -1,0 +1,59 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  padding: 50rpx;
+} 
+@font-face {
+  font-family: 'iconfont'; /* project id 518032 */
+  src: url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.eot');
+  src: url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.svg#iconfont') format('svg');
+ }
+ .iconfont {
+  font-family:"iconfont" !important;
+  font-size:40rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ }
+ /*本项目使用的18个图标 */
+ /* 置顶 */
+ .icon-zhiding:before{content: '\e739';}
+ /* 左箭头 */
+ .icon-zuojiantou:before{content: '\e736';}
+ /* 右箭头 */
+ .icon-youjiantou:before{content: '\e735';}
+ /* 上箭头 */
+ .icon-shangjiantou:before{content: '\e734';}
+ /* 下箭头 */
+ .icon-xiajiantou1:before{content: '\e733';}
+ /* 下大箭头 */
+ .icon-xiajiantou:before{content: '\e6cc';}
+ /* 更多填充 */
+ .icon-gengduotianchong:before{content: '\e67f';}
+ /* 二维码 */
+ .icon-erweima:before{content: '\e65f';}
+ /* 分类 */
+ .icon-fenleiorguangchangorqita:before{content: '\e64f';}
+ /* 地表 */
+ .icon-dibiao:before{content: '\e64d';}
+ /* 帮助 */
+ .icon-bangzhu:before{content: '\e64a';}
+ /* 信封 */
+ .icon-xinfeng:before{content: '\e640';}
+ /* 对话 */
+ .icon-duihuaxinxi:before{content: '\e639';}
+ /* 搜索 */
+ .icon-sousuo:before{content: '\e62f';}
+ /* 首页 */
+ .icon-shouye:before{content: '\e62d';}
+ /* 设置 */
+ .icon-shezhi:before{content: '\e62a';}
+ /* 删除 */
+ .icon-shanchu:before{content: '\e629';}
+ /* 电话 */
+ .icon-dianhua:before{content: '\e61b';}
+ 
+ 

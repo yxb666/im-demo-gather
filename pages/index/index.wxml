@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+ <navigator class="title_sole" wx:for="{{linKList}}" bindtap="bindViewTap" hover-class="none" url="{{item.url}}">
+ <view class="text_title">
+ {{item.name}}
+ </view>
+ <view class="arrows">
+ <icon class="iconfont icon-youjiantou"></icon>
+ </view>
+ </navigator>
+</view>

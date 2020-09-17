@@ -1,0 +1,21 @@
+
+<view class="live_suggest_box">
+		<view class="gm_Strategy_team">
+			<text>上传照片（最多4张）</text>
+		</view>
+		<view class="imageUpload">
+			<view class="imageUpload_btn" wx:if="{{pics.length <=3}}" bindtap="fileListevt">
+				<view class="imageUpload_img">
+					<image  src="/images/upload_icon.png"></image>
+				</view>
+			</view>
+			<view class="imageUpload_btn" style="position: relative;"  wx:for="{{pics}}" wx:key="item.length">
+				<view class="imageUpload_shut" data-index="{{index}}" bindtap='deleteImg'>
+					<image src="/images/shut1_icon.png"  mode="widthFix"></image>
+				</view>
+				<!-- bindtap='previewImg1' 预览 -->
+				<image src="{{item}}" mode="scaleToFill" data-index="{{index}}" ></image>
+			</view>
+		</view>
+	</view>
+

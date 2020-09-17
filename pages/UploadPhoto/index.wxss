@@ -1,0 +1,62 @@
+.live_suggest_box {
+  padding: 40rpx;
+  background-color: #fff;
+}
+
+.gm_Strategy_team {
+  font-size: 13pt;
+  font-weight: 600;
+  color: rgba(51, 51, 51, 1);
+  padding-bottom: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.label_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label_item {
+  min-width: 157rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rpx;
+  border: 1rpx solid #bbb;
+  margin: 0 10rpx 16rpx 0;
+  padding: 0 16rpx;
+}
+
+.imageUpload {
+  display: flex;
+}
+
+.imageUpload_btn {
+  border: 2rpx solid #DDDDDD;
+  width: 140rpx;
+  height: 140rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6rpx;
+  margin-right: 20rpx;
+}
+
+.imageUpload_img {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.imageUpload_shut {
+  width: 28rpx;
+  height: 28rpx;
+  position: absolute;
+  right: 7rpx;
+  top: 7rpx;
+}
